@@ -396,15 +396,6 @@ void booked_info(plane *work){
 	}
 
 }
-
-					
-
-void credits(){
-
-printf("Done by\n\n1)Manish\n2)Shwejan\n3)Pranav\n4)\n\nProject : Flight Reservation System");
-
-}
-
 					
 
 void print_title(){
@@ -455,7 +446,7 @@ void main(){
 		system("clear");
 		print_title();
 		info();
-		printf("1) Book seats\n2)Cancel seat\n3)Check reservations\n4)Credits\n5)Exit\n\n->");
+		printf("1) Book seats\n2)Cancel seat\n3)Check reservations\n4)Exit\n\n->");
 		scanf("%c",&choice);
 		switch(choice){
 			case'1':
@@ -469,13 +460,10 @@ void main(){
 				booked_info(work);
 				break;
 			case'4':
-				credits();
-				break;
-			case'5':
 				exit_message();
 				break;
 			default:
 				printf("Error : Invalid Input");
 		}
-	}while(choice!='5');
+	}while(choice!='4');
 }
