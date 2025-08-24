@@ -1,0 +1,10 @@
+NewDelhi Mumbai 10:00AM 12:30PM 5000
+Mumbai Bengaluru 08:30AM 10:45AM 4500
+NewDelhi Kolkata 11:15AM 01:25PM 6200
+Kolkata Chennai 09:00AM 11:30AM 5800
+Bengaluru Hyderabad 02:00PM 03:15PM 3500
+Hyderabad NewDelhi 06:45PM 09:00PM 7000
+Mumbai NewDelhi 07:30PM 09:45PM 6500
+Chennai Mumbai 04:00PM 06:10PM 5100
+Kolkata NewDelhi 03:10PM 05:20PM 6000
+Bengaluru Mumbai 10:50AM 01:05PM 4800
